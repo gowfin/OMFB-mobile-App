@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@android:color/holo_blue_bright"
+              tools:context="gowfinmfbsoftwares.com.DepositFragment" android:orientation="vertical">
+
+    <SearchView
+            android:layout_width="561dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/simpleSearchViewFrag"
+            android:queryHint="Search Depositor's Name"
+
+            android:background="#0f0"
+
+    />
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listViewfra"
+
+
+            android:background="#0ff"
+    />
+    <EditText
+            android:layout_width="390dp"
+            android:layout_height="51dp"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:hint="@string/account_name"
+            android:id="@+id/searchnamefra"
+            android:focusable="false"
+            android:onClick="press"
+
+
+            />
+    <EditText
+            android:layout_width="384dp"
+            android:layout_height="78dp"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:hint="@string/account_number"
+            android:id="@+id/searchAcnofra"
+            />
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:inputType="textPersonName"
+            android:text=""
+            android:hint="@string/Amount"
+            android:ems="10"
+            android:id="@+id/searchamountfra"
+            />
+    <Button
+            android:text="@string/post_deposit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchbtndeposit"
+            android:onClick="post"
+
+    />
+
+
+</LinearLayout>

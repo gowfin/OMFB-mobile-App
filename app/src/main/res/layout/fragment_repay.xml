@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@android:color/holo_red_light"
+             tools:context="gowfinmfbsoftwares.com.RepayFragment">
+
+
+
+
+        <SearchView
+                android:layout_width="561dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/simpleSearchViewlnfra"
+                android:queryHint="Search loanee's name"
+
+                android:background="#0f0"
+
+        />
+        <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listViewln"
+                android:queryHint="Type Name"
+
+                android:background="#0ff"
+        />
+
+
+
+</LinearLayout>

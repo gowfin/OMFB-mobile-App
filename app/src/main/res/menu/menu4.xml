@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/logout"
+          android:title="Logout"
+
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/group"
+          android:title="Search By Group"
+
+          app:showAsAction="never"/>
+    <item android:id="@+id/zerodeposit"
+          android:title="Zero all deposit"
+
+          app:showAsAction="never"/>
+    <item android:id="@+id/openrepayment"
+          android:title="Switch to Repayment"
+
+          app:showAsAction="never"/>
+</menu>
+
